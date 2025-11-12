@@ -1,3 +1,95 @@
+# Personal Blog Management System
+
+A blog system designed for personal use with complete article management features and built-in editor.
+
+## Features
+
+- ✅ **Single-user login system** - Supports administrator login only
+- ✅ **Built-in rich text editor** - Supports text formatting, link insertion, etc.
+- ✅ **Article management** - Publish, edit, delete, and view articles
+- ✅ **Data persistence** - Uses localStorage for data storage
+- ✅ **Data backup** - Supports import/export functionality
+- ✅ **Responsive design** - Adapts to different screen sizes
+- ✅ **iOS-style interface** - Modern design style
+
+## Quick Start
+
+### Default Account
+- **Username**: `admin`
+- **Password**: `admin123`
+
+### Usage
+
+1. **Access the blog**: Open the `index.html` file
+2. **Login to admin panel**: Click the "Admin Panel" button in the top right corner
+3. **Publish articles**: Switch to the "New Article" tab in the admin panel
+4. **Manage articles**: Edit or delete existing articles in the "Article List" tab
+
+## File Structure
+
+```
+blog/
+├── index.html          # Main page
+├── css/
+│   ├── style.css       # Main stylesheet
+│   └── admin.css       # Admin panel styles
+├── js/
+│   ├── app.js          # Main application
+│   ├── admin.js        # Admin panel functionality
+│   ├── auth.js         # Authentication system
+│   ├── data.js         # Data storage management
+│   └── editor.js       # Rich text editor
+└── README.md          # Documentation
+```
+
+## Editor Features
+
+The built-in editor supports the following features:
+- **Text formatting**: Bold, italic, underline, strikethrough
+- **Paragraph formatting**: Headings, quotes, code blocks
+- **Lists**: Ordered lists, unordered lists
+- **Links**: Insert and edit hyperlinks
+- **Keyboard shortcuts**: Supports common shortcut operations
+
+## Data Management
+
+### Data Storage
+- All data is stored in browser's localStorage
+- Article data is automatically saved, no manual saving required
+
+### Data Backup
+- **Export data**: Click the "Export Data" button in the admin panel
+- **Import data**: Click the "Import Data" button in the admin panel and select backup file
+
+## Custom Configuration
+
+### Modify Default Account
+Edit the default account information in the `js/data.js` file:
+
+```javascript
+// Modify default administrator account
+this.users = [{
+    username: 'your-username',
+    password: 'your-password'
+}];
+```
+
+### Customize Styles
+Edit `css/style.css` and `css/admin.css` files to customize the interface styles.
+
+## Notes
+
+- Data is stored locally in the browser, clearing browser data will result in article loss
+- Regular use of export function for data backup is recommended
+- System supports single-user use only, suitable for personal blogs
+- Compatible with modern browsers (Chrome, Firefox, Safari, Edge)
+
+## Technical Support
+
+If you encounter any issues or have suggestions, please check the browser console for error messages.
+
+---
+
 # 个人博客管理系统
 
 这是一个专为个人使用设计的博客系统，具有完整的文章管理功能和内置编辑器。
