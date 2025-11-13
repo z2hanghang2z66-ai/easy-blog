@@ -25,6 +25,12 @@ A blog system designed for personal use with complete article management feature
 3. **Publish articles**: Switch to the "New Article" tab in the admin panel
 4. **Manage articles**: Edit or delete existing articles in the "Article List" tab
 
+## Preview
+
+![Blog System Preview](屏幕截图%202025-11-13%20131349.png)
+
+*Blog system interface with iOS-style design*
+
 ## File Structure
 
 ```
@@ -116,6 +122,12 @@ If you encounter any issues or have suggestions, please check the browser consol
 2. **登录管理后台**: 点击页面右上角的"管理后台"按钮
 3. **发布文章**: 在管理后台中切换到"新建文章"标签页
 4. **管理文章**: 在"文章列表"标签页中编辑或删除现有文章
+
+## 页面预览
+
+![博客系统预览](屏幕截图%202025-11-13%20131349.png)
+
+*采用iOS风格设计的博客系统界面*
 
 ## 文件结构
 
